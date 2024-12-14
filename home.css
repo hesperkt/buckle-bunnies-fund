@@ -3,6 +3,12 @@
   list-style-type: none;
 }
 
+.center1 {
+  display: block;
+  margin-left: auto;
+  width: 15%;
+}
+
 header {
 padding: 20px;
 background: linear-gradient(135deg, #9CCF37, #D1CBFD);
