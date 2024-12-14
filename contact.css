@@ -27,7 +27,7 @@ h1, h2{
     font-size: 17px;
 }
 .navigation a:hover {
-    background-color: #ddd;
+    background-color: #d1cbfd;
     color: black;
 }
 .navigation a.active {
