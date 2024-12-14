@@ -3,6 +3,10 @@
   list-style-type: none;
 }
 
+img{
+  display: block;
+  width:100%
+}
 .center1 {
   display: block;
   margin-left: auto;
