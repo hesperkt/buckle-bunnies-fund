@@ -72,10 +72,10 @@ img{
     content: "\2796";
   }
 
-
-
-
-
+#error {
+  color: red;
+  text-align: center;
+}
 
 
 
