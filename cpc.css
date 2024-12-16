@@ -1,0 +1,42 @@
+/* style.css */
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #9CCF37, #D1CBFD);
+    color: black;
+}
+
+/* Centered container for content */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+p {
+    text-align: justify;
+    font-size: 1.1em;
+    color: #444;
+    margin: 0;
+}
+
+/* Strong text styling for emphasis */
+strong {
+    color: #000;
+}
