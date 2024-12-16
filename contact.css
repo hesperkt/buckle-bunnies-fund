@@ -8,6 +8,13 @@ header {
 h1, h2{
     text-align: center;
 }
+
+img{
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
 .navigation {
     display: flex;
     justify-content: center;
