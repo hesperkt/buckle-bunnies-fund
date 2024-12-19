@@ -74,7 +74,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
-  background: linear-gradient(135deg, #9CCF37, #D1CBFD);
+  background: linear-gradient (#D1CBFD);
 }
 
 h1 {
@@ -137,7 +137,7 @@ h1 {
 
 .image-card img {
   width: 100%;
-  height: auto;
+  height: 400px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
