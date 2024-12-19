@@ -1,3 +1,75 @@
+* {
+    font-family: Monaco, sans-serif;
+}
+/* Header styling */
+header {
+    padding: 20px;
+    background: linear-gradient(135deg, #9CCF37, #D1CBFD); /* Matching gradient */
+}
+h1, h2 {
+    text-align: center;
+}
+/* Navigation Bar Styling */
+.navigation {
+    display: flex;
+    justify-content: center;  /* Center links horizontally */
+    align-items: center;      /* Align items vertically (if necessary) */
+    background-color: #FF9C51; /* Navbar color */
+    width: 100%;              /* Ensure navbar spans the full width */
+    position: fixed;          /* Fix navbar to the top of the page */
+    top: 0;                   /* Align it at the top */
+    left: 0;                  /* Full width */
+    z-index: 10;              /* Make sure navbar is always on top */
+    padding: 10px 0;          /* Padding for navbar */
+}
+.navigation a {
+    color: #F2F2F2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: background-color 0.3s ease;
+}
+.navigation a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.navigation a.active {
+    background-color: #04AA6D; /* Active link color */
+    color: white;
+}
+/* Accordion styling (not used in your current example, but kept for context) */
+.accordion {
+    background-color: #9CCF37;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+.accordion:hover, .active {
+    background-color: #CAEF81; /* Hover and active accordion color */
+}
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+.accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: black;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2796";
+}
+/* Body and main layout styling */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -27,8 +99,9 @@ h1 {
 }
 
 .navigation a:hover {
-  background-color: #ddd;
-  color: black;
+<<<<<<< HEAD
+    background-color: #d1cbfd;
+    color: black;
 }
 
 .navigation a.active {

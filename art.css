@@ -36,7 +36,7 @@ body {
   transition: background-color 0.3s ease;
 }
 .navigation a:hover {
-  background-color: #ddd;
+  background-color: #d1cbfd;
   color: black;
 }
 .navigation a.active {

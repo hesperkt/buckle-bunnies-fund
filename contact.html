@@ -4,6 +4,7 @@
 <meta charset='utf-8'>
 <meta name='description' content='Description of document content'>
 <link rel="stylesheet" href="contact.css">
+<script defer src="contact.js" ></script> 
 </head>
 
 <body>
@@ -15,23 +16,41 @@
     <a href="#contactus">Contact Us</a></li>
   </nav>
   <h1>Buckle Bunnies Fund</h1>
-    <div id="contactus"class="container">
-        <form action="action_page.php">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select>
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          <input type="submit" value="Submit">
-        </form>
+  <h2>Need support?</h2>
+  <p>
+    Our textline is always open, though it make take us 1-2 days to respond.
+    Text us at (325) 261-6327!
+  </p>
+  <br>
+  <img src="bbfContact.png">
+  <br>
+  
+    <div id="error"></div>
+    <br>
+      <form id="form" action="" method="GET"
+      novalidate>
+      <div>
+          <label for="name"> Name</label>
+          <input type="text" id="name" name="name" placeholder="First and last name" required>
       </div>
+
+      <div>
+          <label for="city">City, State</label>
+          <input type="text" id="city" name="city" placeholder="City, State" required>
+      </div>
+
+      <div>
+          <label for="contact">Email/Phone Number</label>
+          <input type="text" id="contact" name="contact" placeholder="Email and/or Phone Number" required>
+      </div>
+
+      <div>
+          <label for="subject">How can we support you?</label>
+          <textarea id="subject" name="subject" style="height:200px" required></textarea>
+      </div>
+      <button type="submit">Submit</button>
+        </form>
+     
 
 </body>
 </html>
