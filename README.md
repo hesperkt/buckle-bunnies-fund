@@ -3,6 +3,9 @@ Buckle Bunnies Fund is a mutual aid organization in Texas fighting for reproduct
 
 **Link to project:** https://hesperkt.github.io/buckle-bunnies-fund/
 
+<img width="1262" alt="buckleBunniesFund" src="https://github.com/user-attachments/assets/fdf97290-e8c0-4dfc-a32a-72a22a5c027d" />
+
+
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript
