@@ -3,7 +3,11 @@
   list-style-type: none;
 }
 
-img{
+main {
+  margin: 4% 10%;
+}
+
+img {
   display: block;
   width:100%
 }
@@ -15,17 +19,13 @@ img{
 
 header {
 padding: 20px;
-background: linear-gradient(135deg, #9CCF37, #D1CBFD);
+background: linear-gradient(135deg, #9CCF37, rgb(255, 182, 214));
 }
 
 h1{
   padding: 1em;
 }
 
-img{
-  display: block;
-  width:100%
-}
 .center1 {
   display: block;
   margin-left: auto;
@@ -52,16 +52,16 @@ header ul {
 
 header ul{
   a:hover {
-    background-color: #9ccf37;
-    color: #f2f2f2;
+    /* background-color: #9ccf37 */
+    color: #000;
   }
 }
 
 header a {
-  color: #000;
+  color:#f2f2f2;
   display: block;
   padding: 0.5em 1em;
-  border-top: 3px solid #ff9c51;
+  border-top: 3px solid #D1CBFD;
 }
 
 .navigation {
