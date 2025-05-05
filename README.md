@@ -1,8 +1,7 @@
 # Buckle Bunnies Fund
 Buckle Bunnies Fund is a mutual aid organization in Texas fighting for reproductive justice and supporting folks with navigating and accessing abortion resources. They dream of a world that provides care to communities in need and work toward a healthcare without barriers or bans.
 
-**Link to project:** https://hesperkt.github.io/buckle-bunnies-fund/, providing 
-
+**Link to project:** https://hesperkt.github.io/buckle-bunnies-fund/
 
 ## How It's Made:
 
