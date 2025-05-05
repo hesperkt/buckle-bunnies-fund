@@ -10,7 +10,7 @@ Buckle Bunnies Fund is a mutual aid organization in Texas fighting for reproduct
 
 **Tech used:** HTML, CSS, JavaScript
 
-A revamp of Buckle Bunnies Fund's website, I sought to explore different color schemes and images to make the website more engaging and accessible to users.
+A revamp of Buckle Bunnies Fund's website, I sought to explore different color schemes, images, and fixed links to make the website more engaging and accessible to users.
 
 ## Future Optimizations
 - Going to create folders and re-factor code
