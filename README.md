@@ -14,5 +14,5 @@ A revamp of Buckle Bunnies Fund's website, I sought to explore different color s
 
 ## Future Optimizations
 - Going to create folders and re-factor code
-- Utilize and image sprite for photos
+- Utilize an image sprite for photos
 - Develop a logo for Buckle Bunnies Fund
